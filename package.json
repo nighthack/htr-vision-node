@@ -1,0 +1,20 @@
+{
+  "name": "htr-node",
+  "version": "1.0.0",
+  "description": "HTR using vision API",
+  "main": "index.js",
+  "author": "Akshay Alenchery",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/vision": "^2.1.2",
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
