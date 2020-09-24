@@ -32,3 +32,5 @@ yarn install
 ```
 yarn start
 ```
+
+4. Send POST request to http://localhost:5000/api/detect with the image in form data field "image".
